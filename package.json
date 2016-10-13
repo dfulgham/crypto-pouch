@@ -2,7 +2,7 @@
   "name": "crypto-pouch",
   "version": "3.0.0",
   "description": "encrypted pouchdb/couchdb database",
-  "main": "index.js",
+  "main": "bundle.js",
   "scripts": {
     "test": "node test.js | tspec",
     "build": "browserify ./ >  bundle.js",
